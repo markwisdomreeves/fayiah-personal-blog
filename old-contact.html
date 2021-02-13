@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <!-- contact form -->
+    <section id="contact-form">
+        <div id="error_message">
+
+        </div>
+
+        <section id="contact" data-aos="fade-up" data-aos-delay="200">
+            <section id="contact-btn">
+                <h1 class="c-b-heading">
+                    Get in touch with me
+                </h1>
+            </section>
+        </section>
+
+        <form onsubmit="return validate();"> 
+
+            <!-- left side -->
+            <div class="contact-left" data-aos="fade-right" data-aos-delay="200">
+                <h1 class="c-l-heading"><font style="border-bottom: 3px solid maroon;">Writ</font>e me</h1>
+                <!-- name -->
+                <div class="input_field f-name">
+                    <font>Name</font>
+                    <input 
+                      type="text"
+                      name="name"
+                      id="name" 
+                      placeholder="Enter Your Full Name" 
+                />
+                </div>
+                <!-- name -->
+                <div class="input_field subject">
+                    <font>Subject</font>
+                    <input 
+                      type="text"
+                      name="subject"
+                      id="subject" 
+                      placeholder="Enter a Subject" 
+                />
+                </div>
+                <!-- email -->
+                <div class="input_field f-email">
+                    <font>Email</font>
+                    <input 
+                      type="text"
+                      name="email"
+                      id="email" 
+                      placeholder="Enter Your Email"
+                    />
+                </div>
+            </div>
+            <!-- right side -->
+            <div class="contact-right" data-aos="fade-left" data-aos-delay="200">
+                <!-- message -->
+                <div class="input_field message">
+                    <font>Message</font>
+                    <textarea 
+                     name="message" 
+                     id="message" 
+                     cols="20" 
+                     rows="5" 
+                     placeholder="What's on your mind ...?">
+                </textarea>
+                </div>
+                <!-- submit-btn -->
+                <button type="submit">Send →</button>
+            </div>
+        </form>
+</section>
+
+</body>
+</html>
